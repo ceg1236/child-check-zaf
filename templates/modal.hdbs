@@ -1,0 +1,13 @@
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Child Ticket</h3>
+  </div>
+  <div class="modal-body">
+    <p>This ticket is a child ticket of <span class="parent-id"></span>. Would you like to add this comment as an internal note to the Parent Ticket <span class="parent-id"></span></p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">No</button>
+    <button class="btn btn-primary yes">Yes</button>
+  </div>
+</div>
